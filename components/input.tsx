@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { StyleSheet,TextInput, View,} from 'react-native';
+import { StyleSheet,TextInput, View} from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
 
@@ -36,6 +36,7 @@ export default Input;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    top:1,
     justifyContent: 'center',
     alignItems: 'center',
     borderBottomColor: '#aaa',
